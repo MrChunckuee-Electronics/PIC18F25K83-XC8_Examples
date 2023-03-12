@@ -3181,8 +3181,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _OSCILLATOR_Initialize ]
 [f ]
 "74
-[; ;mcu.c: 74:     OSCCON1 = 0x60;
-[e = _OSCCON1 -> -> 96 `i `uc ]
+[; ;mcu.c: 74:     OSCCON1 = 0x62;
+[e = _OSCCON1 -> -> 98 `i `uc ]
 "76
 [; ;mcu.c: 76:     OSCCON3 = 0x00;
 [e = _OSCCON3 -> -> 0 `i `uc ]
@@ -3190,8 +3190,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcu.c: 78:     OSCEN = 0x00;
 [e = _OSCEN -> -> 0 `i `uc ]
 "80
-[; ;mcu.c: 80:     OSCFRQ = 0x08;
-[e = _OSCFRQ -> -> 8 `i `uc ]
+[; ;mcu.c: 80:     OSCFRQ = 0x06;
+[e = _OSCFRQ -> -> 6 `i `uc ]
 "82
 [; ;mcu.c: 82:     OSCTUNE = 0x00;
 [e = _OSCTUNE -> -> 0 `i `uc ]
@@ -3220,8 +3220,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcu.c: 96:         IO_LEDPrintChar(LED_COUNTER);
 [e ( _IO_LEDPrintChar (1 _LED_COUNTER ]
 "97
-[; ;mcu.c: 97:         _delay((unsigned long)((250)*(64000000/4000.0)));
-[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 64000000 `l `d .4000.0 `ul ]
+[; ;mcu.c: 97:         _delay((unsigned long)((250)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 "98
 [; ;mcu.c: 98:     }
 }
@@ -3241,8 +3241,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcu.c: 100:         IO_LEDPrintChar(LED_COUNTER);
 [e ( _IO_LEDPrintChar (1 _LED_COUNTER ]
 "101
-[; ;mcu.c: 101:         _delay((unsigned long)((250)*(64000000/4000.0)));
-[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 64000000 `l `d .4000.0 `ul ]
+[; ;mcu.c: 101:         _delay((unsigned long)((250)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 "102
 [; ;mcu.c: 102:     }
 }

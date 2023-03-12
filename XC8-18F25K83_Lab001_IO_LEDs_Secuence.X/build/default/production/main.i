@@ -36445,7 +36445,7 @@ unsigned char __t3rd16on(void);
 
 
 #pragma config FEXTOSC = OFF
-#pragma config RSTOSC = HFINTOSC_64MHZ
+#pragma config RSTOSC = HFINTOSC_1MHZ
 
 
 #pragma config CLKOUTEN = OFF

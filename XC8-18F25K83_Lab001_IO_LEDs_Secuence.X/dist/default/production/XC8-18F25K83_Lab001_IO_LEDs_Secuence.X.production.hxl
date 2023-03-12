@@ -10,11 +10,11 @@
 ### Memory Usage ###
  Intel Hex-file ranges:
   0h - 3h		(dist/default/production\XC8-18F25K83_Lab001_IO_LEDs_Secuence.X.production.hex)
-  7E8Ah - 7FFFh		(dist/default/production\XC8-18F25K83_Lab001_IO_LEDs_Secuence.X.production.hex)
+  7E8Eh - 7FFFh		(dist/default/production\XC8-18F25K83_Lab001_IO_LEDs_Secuence.X.production.hex)
   200000h - 20000Fh		(dist/default/production\XC8-18F25K83_Lab001_IO_LEDs_Secuence.X.production.hex)
   300000h - 300009h		(dist/default/production\XC8-18F25K83_Lab001_IO_LEDs_Secuence.X.production.hex)
  Unused ranges:
-  4h - 7E89h
+  4h - 7E8Dh
   8000h - 1FFFFFh
   200010h - 2FFFFFh
 
@@ -27,7 +27,7 @@
 ----------------------------------------------------------
 00000000 | H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- -- -- --
 ----------------------------------------------------------
-00007E80 | -- -- -- -- -- -- -- -- -- -- H1 H1 H1 H1 H1 H1
+00007E80 | -- -- -- -- -- -- -- -- -- -- -- -- -- -- H1 H1
 00007E90 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00007EA0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00007EB0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1

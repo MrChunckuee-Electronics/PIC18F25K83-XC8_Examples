@@ -37067,13 +37067,13 @@ void MCU_Initialize(void){
 # 72 "mcu.c"
 void OSCILLATOR_Initialize(void){
 
-    OSCCON1 = 0x60;
+    OSCCON1 = 0x62;
 
     OSCCON3 = 0x00;
 
     OSCEN = 0x00;
 
-    OSCFRQ = 0x08;
+    OSCFRQ = 0x06;
 
     OSCTUNE = 0x00;
 }
@@ -37082,11 +37082,11 @@ void IO_LEDHello(void){
     uint8_t LED_COUNTER;
     for(LED_COUNTER=1; LED_COUNTER<5; LED_COUNTER++){
         IO_LEDPrintChar(LED_COUNTER);
-        _delay((unsigned long)((250)*(64000000/4000.0)));
+        _delay((unsigned long)((250)*(8000000/4000.0)));
     }
     for(LED_COUNTER=4; LED_COUNTER>0; LED_COUNTER--){
         IO_LEDPrintChar(LED_COUNTER);
-        _delay((unsigned long)((250)*(64000000/4000.0)));
+        _delay((unsigned long)((250)*(8000000/4000.0)));
     }
 }
 # 113 "mcu.c"

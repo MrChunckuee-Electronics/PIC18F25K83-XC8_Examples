@@ -3033,7 +3033,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "22 ./device_config.h
 [p x FEXTOSC  =  OFF     ]
 "23
-[p x RSTOSC  =  HFINTOSC_64MHZ ]
+[p x RSTOSC  =  HFINTOSC_1MHZ     ]
 "26
 [p x CLKOUTEN  =  OFF    ]
 "27

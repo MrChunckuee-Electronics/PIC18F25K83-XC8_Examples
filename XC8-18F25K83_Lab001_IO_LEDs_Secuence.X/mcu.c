@@ -70,14 +70,14 @@ void MCU_Initialize(void){
  * Remarks:         
  ******************************************************************************/
 void OSCILLATOR_Initialize(void){
-    // NOSC HFINTOSC; NDIV 1; 
-    OSCCON1 = 0x60;
+    // NOSC HFINTOSC; NDIV 4; 
+    OSCCON1 = 0x62;
     // CSWHOLD may proceed; SOSCPWR Low power; 
     OSCCON3 = 0x00;
     // MFOEN disabled; LFOEN disabled; ADOEN disabled; SOSCEN disabled; EXTOEN disabled; HFOEN disabled; 
     OSCEN = 0x00;
-    // HFFRQ 64_MHz; 
-    OSCFRQ = 0x08;
+    // HFFRQ 32_MHz; 
+    OSCFRQ = 0x06;
     // TUN 0; 
     OSCTUNE = 0x00;
 }

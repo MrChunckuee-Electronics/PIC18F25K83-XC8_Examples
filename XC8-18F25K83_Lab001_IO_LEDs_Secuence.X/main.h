@@ -25,7 +25,7 @@ extern "C" {
 #include "mcu.h"
     
 /*********** G E N E R A L     D E F I N E S **********************************/
-#define _XTAL_FREQ        64000000
+#define _XTAL_FREQ        8000000
 #define Delay_ms(x)       __delay_ms(x)
     
 /*********** P O R T   D E F I N E S ******************************************/
