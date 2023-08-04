@@ -47,14 +47,14 @@ void INTERRUPT_GlobalInterruptDisable(void)
     INTERRUPT_GlobalInterruptLowDisable();
 }
 
-///*******************************************************************************
-// * Function:        void __interrupt(irq(IRQ_TMR0), base(0x4008)) TMR0_ISR(void)
-// * Description:     Rutina de atencion para la interrupcion del TMR0
-// * Precondition:    None
-// * Parameters:      None
-// * Return Values:   None
-// * Remarks:
-// ******************************************************************************/
+/*******************************************************************************
+ * Function:        void __interrupt(irq(IRQ_TMR0), base(0x4008)) TMR0_ISR(void)
+ * Description:     Rutina de atencion para la interrupcion del TMR0
+ * Precondition:    None
+ * Parameters:      None
+ * Return Values:   None
+ * Remarks:
+ ******************************************************************************/
 void __interrupt(irq(IRQ_TMR0), base(0x4008)) TMR0_ISR(void){
     PIR3bits.TMR0IF = 0; // Clear the interrupt flag
     TIMER0_OVR_FLAG = 1;
