@@ -1,0 +1,381 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K83 ]
+[d frameptr 16353 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"18 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab004b_LEDs_Multiplexing.X\isr_manager.c
+[v _INTERRUPT_GlobalInterruptEnable INTERRUPT_GlobalInterruptEnable `(v  1 e 1 0 ]
+"54
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
+"67
+[v _INTERRUPT_InterruptManagerLow INTERRUPT_InterruptManagerLow `IIL(v  1 e 1 0 ]
+"23 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab004b_LEDs_Multiplexing.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"39 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab004b_LEDs_Multiplexing.X\mcu.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _SYSTEM_Process SYSTEM_Process `(v  1 e 1 0 ]
+"69
+[v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
+"97
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"118
+[v _IO_LEDHello IO_LEDHello `(v  1 e 1 0 ]
+"138
+[v _IO_LEDPrintChar IO_LEDPrintChar `(v  1 e 1 0 ]
+"187
+[v _RTCC_Enable RTCC_Enable `(v  1 e 1 0 ]
+"209
+[v _RTCC_Update RTCC_Update `(v  1 e 1 0 ]
+"222
+[v _LED_Update LED_Update `(v  1 e 1 0 ]
+"293
+[v _MCU_SetOut MCU_SetOut `(v  1 e 1 0 ]
+"65 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab004b_LEDs_Multiplexing.X/isr_manager.h
+[v _TIMER0_OVR_FLAG TIMER0_OVR_FLAG `a  1 e 1 0 ]
+"3600 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\pic\include\proc\pic18f25k83.h
+[v _TMR0L TMR0L `VEuc  1 e 1 @16310 ]
+"3738
+[v _TMR0H TMR0H `VEuc  1 e 1 @16311 ]
+[s S130 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"4020
+[s S136 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+[s S142 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+[u S148 . 1 `S130 1 . 1 0 `S136 1 . 1 0 `S142 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES148  1 e 1 @16312 ]
+[s S171 . 1 `uc 1 CKPS 1 0 :4:0 
+`uc 1 ASYNC 1 0 :1:4 
+`uc 1 CS 1 0 :3:5 
+]
+"4127
+[s S175 . 1 `uc 1 CKPS0 1 0 :1:0 
+`uc 1 CKPS1 1 0 :1:1 
+`uc 1 CKPS2 1 0 :1:2 
+`uc 1 CKPS3 1 0 :1:3 
+`uc 1 T0ASYNC 1 0 :1:4 
+`uc 1 CS0 1 0 :1:5 
+`uc 1 CS1 1 0 :1:6 
+`uc 1 CS2 1 0 :1:7 
+]
+[s S184 . 1 `uc 1 T0CKPS 1 0 :4:0 
+`uc 1 . 1 0 :1:4 
+`uc 1 T0CS 1 0 :3:5 
+]
+[s S188 . 1 `uc 1 T0CKPS0 1 0 :1:0 
+`uc 1 T0CKPS1 1 0 :1:1 
+`uc 1 T0CKPS2 1 0 :1:2 
+`uc 1 T0CKPS3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 T0CS0 1 0 :1:5 
+`uc 1 T0CS1 1 0 :1:6 
+`uc 1 T0CS2 1 0 :1:7 
+]
+[u S197 . 1 `S171 1 . 1 0 `S175 1 . 1 0 `S184 1 . 1 0 `S188 1 . 1 0 ]
+[v _T0CON1bits T0CON1bits `VES197  1 e 1 @16313 ]
+"4232
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+"4344
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+[s S371 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"4371
+[s S380 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S389 . 1 `S371 1 . 1 0 `S380 1 . 1 0 ]
+[v _LATBbits LATBbits `VES389  1 e 1 @16315 ]
+"4456
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+[s S90 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"4483
+[s S99 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S108 . 1 `S90 1 . 1 0 `S99 1 . 1 0 ]
+[v _LATCbits LATCbits `VES108  1 e 1 @16316 ]
+"4568
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"4630
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+[s S350 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4647
+[u S359 . 1 `S350 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES359  1 e 1 @16323 ]
+"4692
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+"4754
+[v _PORTA PORTA `VEuc  1 e 1 @16330 ]
+"4838
+[v _PORTB PORTB `VEuc  1 e 1 @16331 ]
+"4909
+[v _PORTC PORTC `VEuc  1 e 1 @16332 ]
+[s S498 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"5054
+[s S506 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S509 . 1 `S498 1 . 1 0 `S506 1 . 1 0 ]
+[v _INTCON0bits INTCON0bits `VES509  1 e 1 @16338 ]
+[s S229 . 1 `uc 1 I2C1TXIP 1 0 :1:0 
+`uc 1 I2C1IP 1 0 :1:1 
+`uc 1 I2C1EIP 1 0 :1:2 
+`uc 1 U1RXIP 1 0 :1:3 
+`uc 1 U1TXIP 1 0 :1:4 
+`uc 1 U1EIP 1 0 :1:5 
+`uc 1 U1IP 1 0 :1:6 
+`uc 1 TMR0IP 1 0 :1:7 
+]
+"24664
+[s S238 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIP 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIP 1 0 :1:4 
+]
+[u S243 . 1 `S229 1 . 1 0 `S238 1 . 1 0 ]
+[v _IPR3bits IPR3bits `VES243  1 e 1 @14723 ]
+[s S261 . 1 `uc 1 I2C1TXIE 1 0 :1:0 
+`uc 1 I2C1IE 1 0 :1:1 
+`uc 1 I2C1EIE 1 0 :1:2 
+`uc 1 U1RXIE 1 0 :1:3 
+`uc 1 U1TXIE 1 0 :1:4 
+`uc 1 U1EIE 1 0 :1:5 
+`uc 1 U1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"25405
+[s S270 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S276 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S281 . 1 `S261 1 . 1 0 `S270 1 . 1 0 `S276 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES281  1 e 1 @14739 ]
+[s S306 . 1 `uc 1 I2C1TXIF 1 0 :1:0 
+`uc 1 I2C1IF 1 0 :1:1 
+`uc 1 I2C1EIF 1 0 :1:2 
+`uc 1 U1RXIF 1 0 :1:3 
+`uc 1 U1TXIF 1 0 :1:4 
+`uc 1 U1EIF 1 0 :1:5 
+`uc 1 U1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"26129
+[s S315 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S320 . 1 `S306 1 . 1 0 `S315 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES320  1 e 1 @14755 ]
+"27122
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"27262
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"27414
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"27465
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"27569
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"29631
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"30127
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+"30839
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"11 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab004b_LEDs_Multiplexing.X\mcu.c
+[v _counterTMR0 counterTMR0 `us  1 e 2 0 ]
+"12
+[v _ledCounter ledCounter `uc  1 e 1 0 ]
+"13
+[v _bufferLEDs bufferLEDs `us  1 e 2 0 ]
+"15
+[v _LED1_Status LED1_Status `a  1 e 1 0 ]
+"16
+[v _LED2_Status LED2_Status `a  1 e 1 0 ]
+"17
+[v _LED3_Status LED3_Status `a  1 e 1 0 ]
+"18
+[v _LED4_Status LED4_Status `a  1 e 1 0 ]
+"19
+[v _LED5_Status LED5_Status `a  1 e 1 0 ]
+"20
+[v _LED6_Status LED6_Status `a  1 e 1 0 ]
+"21
+[v _LED7_Status LED7_Status `a  1 e 1 0 ]
+"22
+[v _LED8_Status LED8_Status `a  1 e 1 0 ]
+"23
+[v _LED9_Status LED9_Status `a  1 e 1 0 ]
+"24
+[v _LED10_Status LED10_Status `a  1 e 1 0 ]
+"25
+[v _LED11_Status LED11_Status `a  1 e 1 0 ]
+"26
+[v _LED12_Status LED12_Status `a  1 e 1 0 ]
+"23 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab004b_LEDs_Multiplexing.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"28
+} 0
+"57 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab004b_LEDs_Multiplexing.X\mcu.c
+[v _SYSTEM_Process SYSTEM_Process `(v  1 e 1 0 ]
+{
+"59
+} 0
+"209
+[v _RTCC_Update RTCC_Update `(v  1 e 1 0 ]
+{
+"220
+} 0
+"293
+[v _MCU_SetOut MCU_SetOut `(v  1 e 1 0 ]
+{
+[v MCU_SetOut@Out Out `uc  1 a 1 wreg ]
+[v MCU_SetOut@Out Out `uc  1 a 1 wreg ]
+[v MCU_SetOut@Out Out `uc  1 a 1 3 ]
+"433
+} 0
+"222
+[v _LED_Update LED_Update `(v  1 e 1 0 ]
+{
+[v LED_Update@LEDs LEDs `us  1 p 2 1 ]
+"257
+} 0
+"39
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"47
+} 0
+"187
+[v _RTCC_Enable RTCC_Enable `(v  1 e 1 0 ]
+{
+"199
+} 0
+"97
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"108
+} 0
+"69
+[v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"118
+[v _IO_LEDHello IO_LEDHello `(v  1 e 1 0 ]
+{
+"119
+[v IO_LEDHello@LED_COUNTER LED_COUNTER `uc  1 a 1 6 ]
+"128
+} 0
+"138
+[v _IO_LEDPrintChar IO_LEDPrintChar `(v  1 e 1 0 ]
+{
+[v IO_LEDPrintChar@LEDCHAR LEDCHAR `uc  1 a 1 wreg ]
+[v IO_LEDPrintChar@LEDCHAR LEDCHAR `uc  1 a 1 wreg ]
+[v IO_LEDPrintChar@LEDCHAR LEDCHAR `uc  1 a 1 3 ]
+"177
+} 0
+"18 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab004b_LEDs_Multiplexing.X\isr_manager.c
+[v _INTERRUPT_GlobalInterruptEnable INTERRUPT_GlobalInterruptEnable `(v  1 e 1 0 ]
+{
+"29
+} 0
+"67
+[v _INTERRUPT_InterruptManagerLow INTERRUPT_InterruptManagerLow `IIL(v  1 e 1 0 ]
+{
+"80
+} 0
+"54
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
+{
+"57
+} 0
