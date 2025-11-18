@@ -1,0 +1,1057 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+cinit CODE 0 1FC0 1FC0 5C 1 2
+idloc IDLOC 5 200000 200000 10 1 1
+text0 CODE 0 1844 1844 106 1 2
+text1 CODE 0 1D50 1D50 74 1 2
+text2 CODE 0 2248 2248 E 1 2
+text3 CODE 0 2230 2230 18 1 2
+text4 CODE 0 21D4 21D4 34 1 2
+text5 CODE 0 201C 201C 5C 1 2
+text6 CODE 0 1E9E 1E9E 66 1 2
+text7 CODE 0 1F04 1F04 5E 1 2
+text8 CODE 0 1B54 1B54 D0 1 2
+text9 CODE 0 1F62 1F62 5E 1 2
+text10 CODE 0 20D2 20D2 46 1 2
+text11 CODE 0 135E 135E 1DA 1 2
+text12 CODE 0 D34 D34 440 1 2
+text13 CODE 0 1538 1538 1B4 1 2
+text14 CODE 0 1E34 1E34 6A 1 2
+text15 CODE 0 1CC8 1CC8 88 1 2
+text16 CODE 0 1C24 1C24 A4 1 2
+text17 CODE 0 194A 194A 106 1 2
+text18 CODE 0 8E6 8E6 44E 1 2
+text19 CODE 0 1A50 1A50 104 1 2
+text20 CODE 0 1174 1174 1EA 1 2
+text21 CODE 0 215C 215C 3E 1 2
+text22 CODE 0 2118 2118 44 1 2
+text23 CODE 0 1DC4 1DC4 70 1 2
+text24 CODE 0 16EC 16EC 158 1 2
+text25 CODE 0 219A 219A 3A 1 2
+cstackCOMRAM COMRAM 1 1 1 5E 1 1
+bssBANK0 BANK0 1 BA BA 28 1 1
+smallconst SMALLCONST 0 800 800 E6 1 2
+idataBANK0 CODE 0 2078 2078 5A 1 1
+idataBANK1 CODE 0 2208 2208 28 1 1
+dataBANK0 BANK0 1 60 60 5A 1 1
+dataBANK1 BANK1 1 100 100 28 1 1
+bssCOMRAM COMRAM 1 5F 5F 1 1 1
+config CONFIG 4 300000 300000 A 1 1
+$C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+idloc IDLOC 5 200000 200000 10 1 1
+init CODE 0 7FFC 7FFC 4 1 2
+reset_vec CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 A 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM E2-FF 1
+RAM 128-7FF 1
+SFR 3700-3FFF 1
+BANK0 E2-FF 1
+BANK1 128-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+CONST 4-7FF 1
+CONST 2256-7FFB 1
+SMALLCONST 2256-7FFB 1
+CODE 4-7FF 1
+CODE 2256-7FFB 1
+BIGRAM E2-FF 1
+BIGRAM 128-7FF 1
+BIGSFR 3700-3FFF 1
+EEDATA 310000-3103FF 1
+MEDIUMCONST 2256-7FFB 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+219A text25 CODE >69:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+219C text25 CODE >70:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+21A2 text25 CODE >71:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+21AA text25 CODE >74:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+21AE text25 CODE >77:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+21B0 text25 CODE >80:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+21B2 text25 CODE >83:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+21C0 text25 CODE >86:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+21D2 text25 CODE >88:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+16EC text24 CODE >102:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+16EE text24 CODE >104:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+176A text24 CODE >106:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+17A0 text24 CODE >107:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+17D6 text24 CODE >108:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+180C text24 CODE >109:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1842 text24 CODE >110:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1DC4 text23 CODE >112:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1DC6 text23 CODE >113:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1DCC text23 CODE >114:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1DF4 text23 CODE >115:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1E04 text23 CODE >116:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1E32 text23 CODE >117:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+2118 text22 CODE >119:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+211A text22 CODE >120:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+2148 text22 CODE >121:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+2152 text22 CODE >122:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+215A text22 CODE >123:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+215C text21 CODE >125:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+215E text21 CODE >126:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+2186 text21 CODE >127:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+2190 text21 CODE >128:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+2198 text21 CODE >130:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1174 text20 CODE >150:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1176 text20 CODE >151:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+119E text20 CODE >153:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1212 text20 CODE >154:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1236 text20 CODE >155:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+125C text20 CODE >157:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1310 text20 CODE >158:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1336 text20 CODE >159:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+135C text20 CODE >160:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1A50 text19 CODE >4:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1A50 text19 CODE >7:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1A7E text19 CODE >8:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1A8E text19 CODE >9:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1ABC text19 CODE >10:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1ACC text19 CODE >12:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1ADA text19 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1AEC text19 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1AFA text19 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1B0C text19 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1B1C text19 CODE >17:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1B2C text19 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+1B52 text19 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+8E6 text18 CODE >8:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+8E6 text18 CODE >17:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+8EC text18 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+8F2 text18 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+900 text18 CODE >20:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+902 text18 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+912 text18 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+922 text18 CODE >28:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+932 text18 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+934 text18 CODE >33:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+938 text18 CODE >36:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+948 text18 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+94E text18 CODE >40:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+954 text18 CODE >41:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+962 text18 CODE >42:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+964 text18 CODE >45:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+974 text18 CODE >48:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+984 text18 CODE >50:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+994 text18 CODE >53:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+996 text18 CODE >54:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+99A text18 CODE >57:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+9AA text18 CODE >58:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+9AA text18 CODE >65:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+9CA text18 CODE >66:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+9DE text18 CODE >95:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+9EE text18 CODE >96:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+9F8 text18 CODE >97:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A02 text18 CODE >98:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A12 text18 CODE >99:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A1E text18 CODE >100:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A2A text18 CODE >101:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A3A text18 CODE >102:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A46 text18 CODE >103:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A52 text18 CODE >104:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A60 text18 CODE >105:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A70 text18 CODE >106:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A80 text18 CODE >107:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+A90 text18 CODE >108:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+AA0 text18 CODE >109:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+AAE text18 CODE >110:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+ABE text18 CODE >111:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+ACE text18 CODE >112:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+ADE text18 CODE >113:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+AEE text18 CODE >114:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+AFE text18 CODE >115:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+B0E text18 CODE >116:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+B1E text18 CODE >117:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+B48 text18 CODE >145:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+B7E text18 CODE >146:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+B8C text18 CODE >149:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BA6 text18 CODE >152:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BAA text18 CODE >153:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BB4 text18 CODE >154:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BC2 text18 CODE >155:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BC4 text18 CODE >156:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BC4 text18 CODE >157:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BCE text18 CODE >158:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BD4 text18 CODE >152:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BE2 text18 CODE >163:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BE6 text18 CODE >164:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+BF4 text18 CODE >165:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C22 text18 CODE >166:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C26 text18 CODE >167:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C2A text18 CODE >168:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C2A text18 CODE >169:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C3C text18 CODE >173:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C3C text18 CODE >174:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C4C text18 CODE >175:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C58 text18 CODE >176:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C66 text18 CODE >177:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C90 text18 CODE >178:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+C94 text18 CODE >183:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+CAE text18 CODE >184:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+CBE text18 CODE >185:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+CC2 text18 CODE >187:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+CDC text18 CODE >188:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+CEC text18 CODE >190:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+CF0 text18 CODE >191:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+CF4 text18 CODE >192:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+CF4 text18 CODE >194:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+CF8 text18 CODE >195:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+D08 text18 CODE >196:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+D16 text18 CODE >197:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+D18 text18 CODE >199:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+D1E text18 CODE >201:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+D22 text18 CODE >203:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+D32 text18 CODE >205:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+194A text17 CODE >43:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+194A text17 CODE >47:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+1960 text17 CODE >48:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+1974 text17 CODE >49:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+199E text17 CODE >50:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+19A0 text17 CODE >51:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+19B0 text17 CODE >52:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+19B4 text17 CODE >53:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+19C2 text17 CODE >54:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+19DA text17 CODE >57:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+19EE text17 CODE >60:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+1A02 text17 CODE >63:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+1A0C text17 CODE >64:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+1A0E text17 CODE >62:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+1A1E text17 CODE >67:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+1A2E text17 CODE >68:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+1A3E text17 CODE >69:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+1A4E text17 CODE >70:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+1C24 text16 CODE >7:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1C24 text16 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1C34 text16 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1C4A text16 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1C4E text16 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1C52 text16 CODE >17:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1C5C text16 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1C5E text16 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1C6C text16 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1C76 text16 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1C94 text16 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1CA4 text16 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1CA6 text16 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1CB0 text16 CODE >27:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1CB6 text16 CODE >28:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1CB6 text16 CODE >29:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1CC6 text16 CODE >30:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1CC8 text15 CODE >7:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1CC8 text15 CODE >12:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1CDE text15 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1CE2 text15 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1CE6 text15 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1CF0 text15 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1CF2 text15 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1D00 text15 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1D1E text15 CODE >20:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1D2E text15 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1D38 text15 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1D3E text15 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1D3E text15 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1D4E text15 CODE >25:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+1E34 text14 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1E34 text14 CODE >119:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1E44 text14 CODE >121:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1E52 text14 CODE >122:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1E62 text14 CODE >123:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1E6C text14 CODE >124:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1E76 text14 CODE >125:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1E8C text14 CODE >128:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1E9C text14 CODE >129:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1538 text13 CODE >10:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+153A text13 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+1558 text13 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+158A text13 CODE >17:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+158E text13 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+158E text13 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+159E text13 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+15B4 text13 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+15C8 text13 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+15CC text13 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+15D0 text13 CODE >25:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+15D2 text13 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+15DC text13 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+160E text13 CODE >29:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+1610 text13 CODE >30:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+161C text13 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+1626 text13 CODE >28:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+1626 text13 CODE >32:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+1658 text13 CODE >34:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+165A text13 CODE >35:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+1664 text13 CODE >33:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+1682 text13 CODE >37:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+1690 text13 CODE >38:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+1692 text13 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+1696 text13 CODE >40:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+16BA text13 CODE >41:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+16D8 text13 CODE >42:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+16DA text13 CODE >43:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+16EA text13 CODE >44:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+D34 text12 CODE >97:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+D34 text12 CODE >102:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+D38 text12 CODE >103:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+D3C text12 CODE >105:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+D6E text12 CODE >106:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+D72 text12 CODE >107:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+D76 text12 CODE >108:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+D7A text12 CODE >109:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+D9E text12 CODE >110:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+DA2 text12 CODE >111:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+DD6 text12 CODE >112:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+DD8 text12 CODE >110:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+DEE text12 CODE >114:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+DF2 text12 CODE >118:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+E02 text12 CODE >119:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+E06 text12 CODE >120:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+E0A text12 CODE >121:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+E10 text12 CODE >125:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+E20 text12 CODE >126:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+E28 text12 CODE >128:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+E5C text12 CODE >129:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+E70 text12 CODE >134:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+ECE text12 CODE >138:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+EF6 text12 CODE >139:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+F2A text12 CODE >140:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+F5E text12 CODE >141:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+F66 text12 CODE >144:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+F8E text12 CODE >146:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+F94 text12 CODE >147:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+FA4 text12 CODE >149:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+FA8 text12 CODE >151:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+FDA text12 CODE >152:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+FDE text12 CODE >155:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1022 text12 CODE >156:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1096 text12 CODE >157:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+109C text12 CODE >158:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1150 text12 CODE >159:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1156 text12 CODE >160:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1158 text12 CODE >163:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1166 text12 CODE >164:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+116A text12 CODE >166:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1172 text12 CODE >167:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+135E text11 CODE >56:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+135E text11 CODE >57:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1372 text11 CODE >59:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1386 text11 CODE >61:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1436 text11 CODE >62:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+143A text11 CODE >65:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+145A text11 CODE >66:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+147A text11 CODE >67:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+149A text11 CODE >72:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+14A0 text11 CODE >76:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+14B0 text11 CODE >79:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+14DE text11 CODE >80:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+14E4 text11 CODE >81:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+14F4 text11 CODE >82:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+14FA text11 CODE >83:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+150A text11 CODE >84:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1510 text11 CODE >87:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1516 text11 CODE >90:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+151C text11 CODE >93:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1522 text11 CODE >95:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+152E text11 CODE >97:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1534 text11 CODE >99:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1536 text11 CODE >100:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+20D2 text10 CODE >144:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+20D4 text10 CODE >146:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+20EE text10 CODE >149:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+20F2 text10 CODE >150:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+2104 text10 CODE >151:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+2116 text10 CODE >152:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1F62 text9 CODE >4:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+1F62 text9 CODE >11:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+1F6A text9 CODE >12:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+1F72 text9 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+1F76 text9 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+1F8E text9 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+1FA4 text9 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+1FBE text9 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+1B54 text8 CODE >109:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B56 text8 CODE >114:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B5A text8 CODE >116:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B62 text8 CODE >117:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B6C text8 CODE >118:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B70 text8 CODE >120:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B78 text8 CODE >121:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B82 text8 CODE >122:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B86 text8 CODE >124:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B8E text8 CODE >125:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B98 text8 CODE >126:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1B9C text8 CODE >129:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1BA6 text8 CODE >129:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1BB4 text8 CODE >129:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1BBC text8 CODE >129:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1BC4 text8 CODE >129:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1BCE text8 CODE >132:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1BD2 text8 CODE >133:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1C02 text8 CODE >134:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1C10 text8 CODE >135:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1C22 text8 CODE >136:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+1F04 text7 CODE >132:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1F04 text7 CODE >133:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1F10 text7 CODE >134:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1F30 text7 CODE >135:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1F60 text7 CODE >136:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+1E9E text6 CODE >49:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1E9E text6 CODE >50:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1EB6 text6 CODE >51:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1EBC text6 CODE >52:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1EC2 text6 CODE >53:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1ECE text6 CODE >54:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1ED4 text6 CODE >55:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1EE0 text6 CODE >56:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1EF6 text6 CODE >58:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1EFC text6 CODE >59:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1F02 text6 CODE >60:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+201C text5 CODE >19:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+201C text5 CODE >22:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2022 text5 CODE >24:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2026 text5 CODE >26:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+202A text5 CODE >28:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+202E text5 CODE >30:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2032 text5 CODE >32:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2036 text5 CODE >34:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+203A text5 CODE >36:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+203E text5 CODE >38:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2042 text5 CODE >40:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2046 text5 CODE >42:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+204A text5 CODE >44:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+204E text5 CODE >46:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2052 text5 CODE >48:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2056 text5 CODE >50:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+205A text5 CODE >52:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+205E text5 CODE >54:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2062 text5 CODE >56:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2066 text5 CODE >58:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+206A text5 CODE >60:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+206E text5 CODE >62:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2072 text5 CODE >64:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+2076 text5 CODE >67:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+21D4 text4 CODE >33:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21D4 text4 CODE >35:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21DA text4 CODE >36:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21DE text4 CODE >37:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21E2 text4 CODE >40:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21E6 text4 CODE >41:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21EA text4 CODE >42:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21EE text4 CODE >45:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21F2 text4 CODE >46:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21F6 text4 CODE >47:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21FA text4 CODE >48:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+21FE text4 CODE >49:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2202 text4 CODE >50:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2206 text4 CODE >51:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2230 text3 CODE >61:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2230 text3 CODE >63:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2236 text3 CODE >65:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+223A text3 CODE >67:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+223E text3 CODE >69:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2242 text3 CODE >71:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2246 text3 CODE >72:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2248 text2 CODE >19:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2248 text2 CODE >20:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+224C text2 CODE >21:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2250 text2 CODE >22:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+2254 text2 CODE >23:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+1D50 text1 CODE >7:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1D50 text1 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1D58 text1 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1D6A text1 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1D6E text1 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1D72 text1 CODE >17:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1D78 text1 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1D7A text1 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1D88 text1 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1D8E text1 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1DA4 text1 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1DAC text1 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1DAE text1 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1DB4 text1 CODE >27:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1DBA text1 CODE >28:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1DBA text1 CODE >29:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1DC2 text1 CODE >30:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+1844 text0 CODE >62:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1844 text0 CODE >63:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1848 text0 CODE >64:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+184C text0 CODE >66:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+185A text0 CODE >67:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1864 text0 CODE >68:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1866 text0 CODE >69:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1876 text0 CODE >70:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1890 text0 CODE >71:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1894 text0 CODE >72:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+189E text0 CODE >33:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+18E4 text0 CODE >74:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+18EA text0 CODE >76:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1902 text0 CODE >78:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1914 text0 CODE >79:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1930 text0 CODE >80:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1936 text0 CODE >81:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+193C text0 CODE >82:C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+1FC0 cinit CODE >10782:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FC0 cinit CODE >10784:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FC0 cinit CODE >10787:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FC0 cinit CODE >10860:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FC2 cinit CODE >10861:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FC4 cinit CODE >10862:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FC6 cinit CODE >10863:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FC8 cinit CODE >10864:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FCA cinit CODE >10865:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FCC cinit CODE >10866:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FD0 cinit CODE >10867:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FD4 cinit CODE >10868:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FD4 cinit CODE >10869:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FD6 cinit CODE >10870:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FDC cinit CODE >10871:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FDE cinit CODE >10872:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FE0 cinit CODE >10873:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FE2 cinit CODE >10877:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FE4 cinit CODE >10878:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FE6 cinit CODE >10879:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FE8 cinit CODE >10880:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FEA cinit CODE >10881:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FEC cinit CODE >10882:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FEE cinit CODE >10883:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FF2 cinit CODE >10884:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FF6 cinit CODE >10885:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FF6 cinit CODE >10886:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FF8 cinit CODE >10887:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+1FFE cinit CODE >10888:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+2000 cinit CODE >10889:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+2002 cinit CODE >10890:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+2004 cinit CODE >10894:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+2008 cinit CODE >10895:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+200A cinit CODE >10896:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+200A cinit CODE >10897:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+200C cinit CODE >10898:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+200E cinit CODE >10899:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+2010 cinit CODE >10902:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+2012 cinit CODE >10908:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+2012 cinit CODE >10911:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+2014 cinit CODE >10912:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+2016 cinit CODE >10913:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+2018 cinit CODE >10914:C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hspace_0 8000 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hspace_1 128 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hspace_4 60000A 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD_Initialize 1E9E 0 CODE 0 text6 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD_DrawBigDigit 1174 0 CODE 0 text20 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+_lcdNumber BA 0 BANK0 1 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADC_GetSingleConversion 219A 0 CODE 0 text25 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_ADC_GetSingleConversion 21D4 0 CODE 0 text25 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_SetFont@FONT 22 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lsmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LATA 3FBA 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LATB 3FBB 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LATC 3FBC 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+_main 1844 0 CODE 0 text0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_blocks_chars 841 0 SMALLCONST 0 smallconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_LCD_createChar 2118 0 CODE 0 text10 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+start 7FFC 0 CODE 0 init C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+___flmul@aexp 20 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flmul@bexp 21 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flmul@prod 22 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flmul@sign 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flmul@temp 26 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+?___lmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_LCD_SetFont 1C24 0 CODE 0 text8 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__LidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD_Init 135E 0 CODE 0 text11 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD_putc 215C 0 CODE 0 text21 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD_puts 1F04 0 CODE 0 text7 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@num_integer_digits 54 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_Init@display 13 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@count 45 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@i_333 56 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@value 32 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__accesstop 60 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+__end_of_LCD_Init 1538 0 CODE 0 text11 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+intlevel0 0 0 CODE 0 text C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+intlevel1 0 0 CODE 0 text C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+intlevel2 0 0 CODE 0 text C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+intlevel3 0 0 CODE 0 text C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+__end_of_LCD_putc 219A 0 CODE 0 text21 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_LCD_puts 1F62 0 CODE 0 text7 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_LCD_Initialize 1F04 0 CODE 0 text6 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___llmod@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_tron_bold_chars 8C1 0 SMALLCONST 0 smallconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_sensor_ready E1 0 BANK0 1 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_sensor_avgVoltage D7 0 BANK0 1 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADACCU 3EEA 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADACQH 3EF4 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADACQL 3EF3 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADCON0 3EF8 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADCON1 3EF9 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADCON2 3EFA 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADCON3 3EFB 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADLTHH 3EDF 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADLTHL 3EDE 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADPREH 3EF7 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADPREL 3EF6 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADRESH 3EF0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADRESL 3EEF 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADSTAT 3EFC 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADUTHH 3EE1 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADUTHL 3EE0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ANSELA 3A40 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ANSELB 3A50 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ANSELC 3A60 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_LCD_DrawBigDigit 135E 0 CODE 0 text20 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+__end_of___flge 1B54 0 CODE 0 text19 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of___lmul 1E9E 0 CODE 0 text14 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_DISPLAY_ShowFloatValue 1174 0 CODE 0 text12 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_SetFont@i 25 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of___flmul D34 0 CODE 0 text18 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of___fltol 1A50 0 CODE 0 text17 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of___lldiv 1CC8 0 CODE 0 text16 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of___llmod 1D50 0 CODE 0 text15 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of___lwdiv 1DC4 0 CODE 0 text1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_tron_bold_chars 881 0 SMALLCONST 0 smallconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_putc@c 11 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_puts@a 12 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_puts@i 16 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_LCD_Out 1844 0 CODE 0 text24 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_sensor_adcVoltage DB 0 BANK0 1 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lwdiv@quotient 5 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flmul@a 13 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flmul@b F 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+memcpy@tmp B 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lldiv@counter D 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+start_initialization 1FC0 0 CODE 0 cinit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_OSCFRQ 39DF 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lldiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADSTPTH 3EE5 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADSTPTL 3EE4 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_memcpy 1FC0 0 CODE 0 text9 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_SYSTEM_Initialize 2256 0 CODE 0 text2 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_createChar@location 16 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_LCD_Command 215C 0 CODE 0 text22 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@scaled_value 4F 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+__end_of_square_four_chars 881 0 SMALLCONST 0 smallconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_createChar@i 17 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_LCD_Write 1E34 0 CODE 0 text23 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hidloc 200010 0 IDLOC 5 idloc dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lwdiv@counter 7 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+___xxtofl@arg B 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___xxtofl@exp A 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___xxtofl@val 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hconfig 30000A 0 CONFIG 4 config dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lidloc 0 0 IDLOC 5 idloc dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_DrawBigDigit@digit 17 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flmul@grs 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_sensor_avgCounter 5F 0 COMRAM 1 bssCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD_Write 1DC4 0 CODE 0 text23 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+memcpy@d1 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+memcpy@s1 3 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hheap 0 0 HEAP 7 heap dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hinit 8000 0 CODE 0 init dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htemp 0 0 COMRAM 1 temp dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext 0 0 ABS 0 text dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lheap 0 0 HEAP 7 heap dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Linit 7FFC 0 CODE 0 init dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+memcpy@d 7 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+memcpy@n 5 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+memcpy@s 9 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flge 1A50 0 CODE 0 text19 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lmul 1E34 0 CODE 0 text14 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@current_col 5C 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD 60 0 BANK0 1 dataBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__S0 8000 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__S1 128 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__S4 0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__S5 0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_MCU_Initialize 21D4 0 CODE 0 text4 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_Init@cmd 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_SetFont@buffer 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+ADC_GetSingleConversion@channel 5 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_sensor_sumVoltage D9 0 BANK0 1 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_SYSTEM_Initialize 2248 0 CODE 0 text2 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___xxtofl 1538 0 CODE 0 text13 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lldiv@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCDisplay C9 0 BANK0 1 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hramtop 800 0 RAM 0 ramtop dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_square_four_chars 841 0 SMALLCONST 0 smallconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@units_index 5B 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of___xxtofl 16EC 0 CODE 0 text13 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__pdataBANK0 60 0 BANK0 1 dataBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__pdataBANK1 100 0 BANK1 1 dataBANK1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__activetblptr 2 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADC_Initialize 201C 0 CODE 0 text5 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_bit_voltaje 8C5 0 SMALLCONST 0 smallconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_memcpy 1F62 0 CODE 0 text9 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext10 20D2 0 CODE 0 text10 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext11 135E 0 CODE 0 text11 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext12 D34 0 CODE 0 text12 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext13 1538 0 CODE 0 text13 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext14 1E34 0 CODE 0 text14 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext15 1CC8 0 CODE 0 text15 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext16 1C24 0 CODE 0 text16 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext17 194A 0 CODE 0 text17 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext18 8E6 0 CODE 0 text18 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext19 1A50 0 CODE 0 text19 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext20 1174 0 CODE 0 text20 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext21 215C 0 CODE 0 text21 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext22 2118 0 CODE 0 text22 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext23 1DC4 0 CODE 0 text23 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext24 16EC 0 CODE 0 text24 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext25 219A 0 CODE 0 text25 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flmul 8E6 0 CODE 0 text18 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___fltol 194A 0 CODE 0 text17 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_MCU_Initialize 2208 0 CODE 0 text4 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lldiv 1C24 0 CODE 0 text16 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___llmod 1CC8 0 CODE 0 text15 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lwdiv 1D50 0 CODE 0 text1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lconfig 0 0 CONFIG 4 config dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD_Out 16EC 0 CODE 0 text24 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@temp 4B 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lwdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+isa$std 1 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+stackhi 0 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+stacklo 0 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+_voltaje D3 0 BANK0 1 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD_SetFont 1B54 0 CODE 0 text8 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_OSCCON1 39D9 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_OSCCON3 39DB 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_OSCTUNE 39DE 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_adcValue DD 0 BANK0 1 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADCON0bits 3EF8 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_Out@c A 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lspace_4 0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__pbssCOMRAM 5F 0 COMRAM 1 bssCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_ADC_Initialize 2078 0 CODE 0 text5 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flge@ff1 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___flge@ff2 5 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___fltol@exp1 31 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+end_of_initialization 2012 0 CODE 0 cinit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@num_decimal_digits 55 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lwdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+?___flmul F 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+?___fltol 28 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+?___lldiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+?___llmod 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+?___lwdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_square_four_digits 6A 0 BANK0 1 dataBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lramtop 800 0 RAM 0 ramtop dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__pcinit 1FC0 0 CODE 0 cinit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_current_digits DF 0 BANK0 1 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext0 1844 0 CODE 0 text0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext1 1D50 0 CODE 0 text1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext2 2248 0 CODE 0 text2 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext3 2230 0 CODE 0 text3 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext4 21D4 0 CODE 0 text4 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext5 201C 0 CODE 0 text5 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext6 1E9E 0 CODE 0 text6 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext7 1F04 0 CODE 0 text7 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext8 1B54 0 CODE 0 text8 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ptext9 1F62 0 CODE 0 text9 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_blocks_digits 100 0 BANK1 1 dataBANK1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+?_ADC_GetSingleConversion 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+?___xxtofl 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_DrawBigDigit@xpos 13 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_DrawBigDigit@ypos 14 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___fltol@sign1 30 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__psmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+___heap_lo 0 0 ABS 0 - C:\Users\mrchu\AppData\Local\Temp\xcAsdp4.o
+___fltol@f1 28 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of__initialization 2012 0 CODE 0 cinit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__pidataBANK0 2078 0 CODE 0 idataBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__pidataBANK1 2208 0 CODE 0 idataBANK1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lmul@product 9 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_Write@data E 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_Command@cmd 12 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@digit_index 5A 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@digit_value 53 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lmul@multiplicand 5 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___lldiv@quotient 9 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___llmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@drawing_active 44 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___llmod@counter 9 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_blocks_chars 801 0 SMALLCONST 0 smallconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_tron_bold_digits 92 0 BANK0 1 dataBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_main 194A 0 CODE 0 text0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADACT 3EFE 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADCAP 3EF5 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADCLK 3EFF 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADPCH 3EF1 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADREF 3EFD 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_ADRPT 3EEC 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_OSCEN 39DD 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_PORTA 3FCA 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_PORTB 3FCB 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_PORTC 3FCC 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_TRISA 3FC2 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_TRISB 3FC3 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_TRISC 3FC4 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@digits 3E 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@scale_factor 47 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_DISPLAY_ShowFloatValue D34 0 CODE 0 text12 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@i 46 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@j 58 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_createChar@charmap 13 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__HdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD_createChar 20D2 0 CODE 0 text10 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__end_of_OSCILLATOR_Initialize 2248 0 CODE 0 text3 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__initialization 1FC0 0 CODE 0 cinit dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+LCD_SetFont@char_data 23 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+___xxtofl@sign 9 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__pbssBANK0 BA 0 BANK0 1 bssBANK0 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_LCD_Command 2118 0 CODE 0 text22 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@start_col 37 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+DISPLAY_ShowFloatValue@start_row 36 0 COMRAM 1 cstackCOMRAM dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hsmallconst 8E6 0 SMALLCONST 0 smallconst dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+_OSCILLATOR_Initialize 2230 0 CODE 0 text3 dist/default/production\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text18 0 8E6 8E6 1970 1
+cstackCOMRAM 1 1 1 5F 1
+init 0 7FFC 7FFC 4 1
+reset_vec 0 0 0 4 1
+smallconst 0 800 800 E6 1
+dataBANK0 1 60 60 82 1
+dataBANK1 1 100 100 28 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

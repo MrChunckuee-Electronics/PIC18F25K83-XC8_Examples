@@ -1,0 +1,520 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K83 ]
+[d frameptr 16353 ]
+"109 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+[e E22789 . `uc
+FONT_TRON_BOLD 0
+FONT_SQUARE_FOUR 1
+FONT_BLOCKS 2
+]
+"59 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\main.c
+[e E23535 . `uc
+FONT_TRON_BOLD 0
+FONT_SQUARE_FOUR 1
+FONT_BLOCKS 2
+]
+"19 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"69
+[v _ADC_GetSingleConversion ADC_GetSingleConversion `(us  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"109 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+[v _LCD_SetFont LCD_SetFont `(v  1 e 1 0 ]
+"150
+[v _LCD_DrawBigDigit LCD_DrawBigDigit `(v  1 e 1 0 ]
+"56 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+[v _LCD_Init LCD_Init `(a  1 e 1 0 ]
+"102
+[v _LCD_Out LCD_Out `(v  1 e 1 0 ]
+"112
+[v _LCD_Write LCD_Write `(v  1 e 1 0 ]
+"119
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+"125
+[v _LCD_putc LCD_putc `(v  1 e 1 0 ]
+"132
+[v _LCD_puts LCD_puts `(v  1 e 1 0 ]
+"144
+[v _LCD_createChar LCD_createChar `(v  1 e 1 0 ]
+"49 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\main.c
+[v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
+"62
+[v _main main `(v  1 e 1 0 ]
+"101
+[v _DISPLAY_ShowFloatValue DISPLAY_ShowFloatValue `(v  1 e 1 0 ]
+"19 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\mcu.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"33
+[v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"4232 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\pic\include\proc\pic18f25k83.h
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+"4344
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+"4456
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+"4568
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"4630
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+"4692
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+"4754
+[v _PORTA PORTA `VEuc  1 e 1 @16330 ]
+"4838
+[v _PORTB PORTB `VEuc  1 e 1 @16331 ]
+"4909
+[v _PORTC PORTC `VEuc  1 e 1 @16332 ]
+"27122
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"27262
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"27414
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"27465
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"27569
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"29631
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"30127
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+"30839
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"49191
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @16094 ]
+"49319
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @16095 ]
+"49454
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @16096 ]
+"49582
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @16097 ]
+"49980
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @16100 ]
+"50108
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @16101 ]
+"50764
+[v _ADACCU ADACCU `VEuc  1 e 1 @16106 ]
+"51020
+[v _ADRPT ADRPT `VEuc  1 e 1 @16108 ]
+"51418
+[v _ADRESL ADRESL `VEuc  1 e 1 @16111 ]
+"51546
+[v _ADRESH ADRESH `VEuc  1 e 1 @16112 ]
+"51666
+[v _ADPCH ADPCH `VEuc  1 e 1 @16113 ]
+"51777
+[v _ADACQL ADACQL `VEuc  1 e 1 @16115 ]
+"51905
+[v _ADACQH ADACQH `VEuc  1 e 1 @16116 ]
+"51997
+[v _ADCAP ADCAP `VEuc  1 e 1 @16117 ]
+"52096
+[v _ADPREL ADPREL `VEuc  1 e 1 @16118 ]
+"52224
+[v _ADPREH ADPREH `VEuc  1 e 1 @16119 ]
+"52316
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @16120 ]
+[s S170 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"52356
+[s S178 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"52356
+[s S186 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+`uc 1 FM1 1 0 :1:3 
+]
+"52356
+[s S191 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+"52356
+[s S193 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+"52356
+[u S198 . 1 `S170 1 . 1 0 `S178 1 . 1 0 `S186 1 . 1 0 `S191 1 . 1 0 `S193 1 . 1 0 ]
+"52356
+"52356
+[v _ADCON0bits ADCON0bits `VES198  1 e 1 @16120 ]
+"52446
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @16121 ]
+"52512
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @16122 ]
+"52690
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @16123 ]
+"52820
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @16124 ]
+"52945
+[v _ADREF ADREF `VEuc  1 e 1 @16125 ]
+"53027
+[v _ADACT ADACT `VEuc  1 e 1 @16126 ]
+"53119
+[v _ADCLK ADCLK `VEuc  1 e 1 @16127 ]
+"54 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+[v _current_digits current_digits `*.39C[4]uc  1 e 2 0 ]
+"57
+[v _tron_bold_chars tron_bold_chars `C[8][8]uc  1 e 64 0 ]
+"69
+[v _tron_bold_digits tron_bold_digits `[10][4]uc  1 e 40 0 ]
+"72
+[v _square_four_chars square_four_chars `C[8][8]uc  1 e 64 0 ]
+"84
+[v _square_four_digits square_four_digits `[10][4]uc  1 e 40 0 ]
+"87
+[v _blocks_chars blocks_chars `C[8][8]uc  1 e 64 0 ]
+"99
+[v _blocks_digits blocks_digits `[10][4]uc  1 e 40 0 ]
+[s S80 . 10 `*.39VEuc 1 TRIS 2 0 `*.39VEuc 1 PORT 2 2 `uc 1 RS 1 4 `uc 1 EN 1 5 `uc 1 D4 1 6 `uc 1 D5 1 7 `uc 1 D6 1 8 `uc 1 D7 1 9 ]
+"54 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+[v _LCDisplay LCDisplay `S80  1 e 10 0 ]
+"28 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\main.c
+[v _sensor_ready sensor_ready `a  1 e 1 0 ]
+"29
+[v _sensor_avgCounter sensor_avgCounter `uc  1 e 1 0 ]
+"30
+[v _sensor_adcVoltage sensor_adcVoltage `us  1 e 2 0 ]
+[v _sensor_sumVoltage sensor_sumVoltage `us  1 e 2 0 ]
+[v _sensor_avgVoltage sensor_avgVoltage `us  1 e 2 0 ]
+"31
+[v _voltaje voltaje `f  1 e 4 0 ]
+"36
+[v _LCD LCD `S80  1 e 10 0 ]
+"62
+[v _main main `(v  1 e 1 0 ]
+{
+"89
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"19 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\mcu.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"23
+} 0
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"33
+[v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
+{
+"51
+} 0
+"19 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"67
+} 0
+"49 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\main.c
+[v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
+{
+"60
+} 0
+"132 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+[v _LCD_puts LCD_puts `(v  1 e 1 0 ]
+{
+"133
+[v LCD_puts@i i `i  1 a 2 21 ]
+"132
+[v LCD_puts@a a `*.25uc  1 p 2 17 ]
+"136
+} 0
+"109 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+[v _LCD_SetFont LCD_SetFont `(v  1 e 1 0 ]
+{
+[v LCD_SetFont@FONT FONT `E22789  1 a 1 wreg ]
+"111
+[v LCD_SetFont@buffer buffer `[8]uc  1 a 8 25 ]
+"112
+[v LCD_SetFont@char_data char_data `*.25C[8]uc  1 a 2 34 ]
+"110
+[v LCD_SetFont@i i `uc  1 a 1 36 ]
+"109
+[v LCD_SetFont@FONT FONT `E22789  1 a 1 wreg ]
+[v LCD_SetFont@FONT FONT `E22789  1 a 1 33 ]
+"136
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"8
+[v memcpy@s s `*.25Cuc  1 a 2 8 ]
+"7
+[v memcpy@d d `*.39uc  1 a 2 6 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 10 ]
+"4
+[v memcpy@d1 d1 `*.39v  1 p 2 0 ]
+[v memcpy@s1 s1 `*.25Cv  1 p 2 2 ]
+[v memcpy@n n `ui  1 p 2 4 ]
+"18
+} 0
+"144 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+[v _LCD_createChar LCD_createChar `(v  1 e 1 0 ]
+{
+[v LCD_createChar@location location `uc  1 a 1 wreg ]
+"149
+[v LCD_createChar@i i `uc  1 a 1 22 ]
+"144
+[v LCD_createChar@location location `uc  1 a 1 wreg ]
+[v LCD_createChar@charmap charmap `*.39Cuc  1 p 2 18 ]
+"146
+[v LCD_createChar@location location `uc  1 a 1 21 ]
+"152
+} 0
+"56
+[v _LCD_Init LCD_Init `(a  1 e 1 0 ]
+{
+"95
+[v LCD_Init@cmd cmd `uc  1 a 1 41 ]
+[s S80 . 10 `*.39VEuc 1 TRIS 2 0 `*.39VEuc 1 PORT 2 2 `uc 1 RS 1 4 `uc 1 EN 1 5 `uc 1 D4 1 6 `uc 1 D5 1 7 `uc 1 D6 1 8 `uc 1 D7 1 9 ]
+"56
+[v LCD_Init@display display `S80  1 p 10 18 ]
+"100
+} 0
+"101 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\main.c
+[v _DISPLAY_ShowFloatValue DISPLAY_ShowFloatValue `(v  1 e 1 0 ]
+{
+"153
+[v DISPLAY_ShowFloatValue@units_index units_index `Cuc  1 a 1 90 ]
+"150
+[v DISPLAY_ShowFloatValue@digit_index digit_index `uc  1 a 1 89 ]
+"151
+[v DISPLAY_ShowFloatValue@digit_value digit_value `uc  1 a 1 82 ]
+"148
+[v DISPLAY_ShowFloatValue@j j `i  1 a 2 87 ]
+"142
+[v DISPLAY_ShowFloatValue@i_333 i `i  1 a 2 85 ]
+"130
+[v DISPLAY_ShowFloatValue@i i `uc  1 a 1 69 ]
+"113
+[v DISPLAY_ShowFloatValue@temp temp `ul  1 a 4 74 ]
+"112
+[v DISPLAY_ShowFloatValue@count count `uc  1 a 1 68 ]
+"105
+[v DISPLAY_ShowFloatValue@digits digits `[6]uc  1 a 6 61 ]
+"138
+[v DISPLAY_ShowFloatValue@scaled_value scaled_value `ul  1 a 4 78 ]
+"104
+[v DISPLAY_ShowFloatValue@scale_factor scale_factor `ul  1 a 4 70 ]
+"106
+[v DISPLAY_ShowFloatValue@current_col current_col `uc  1 a 1 91 ]
+"103
+[v DISPLAY_ShowFloatValue@num_decimal_digits num_decimal_digits `uc  1 a 1 84 ]
+"102
+[v DISPLAY_ShowFloatValue@num_integer_digits num_integer_digits `uc  1 a 1 83 ]
+"107
+[v DISPLAY_ShowFloatValue@drawing_active drawing_active `uc  1 a 1 67 ]
+"101
+[v DISPLAY_ShowFloatValue@value value `f  1 p 4 49 ]
+[v DISPLAY_ShowFloatValue@start_row start_row `uc  1 p 1 53 ]
+[v DISPLAY_ShowFloatValue@start_col start_col `uc  1 p 1 54 ]
+"171
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 8 ]
+"7
+[v ___llmod@dividend dividend `ul  1 p 4 0 ]
+[v ___llmod@divisor divisor `ul  1 p 4 4 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 48 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 47 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 39 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S671 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S676 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S679 . 4 `l 1 i 4 0 `d 1 f 4 0 `S671 1 fAsBytes 4 0 `S676 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S679  1 a 4 33 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 27 ]
+[s S747 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S750 . 2 `s 1 i 2 0 `us 1 n 2 0 `S747 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S750  1 a 2 37 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 32 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 31 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 26 ]
+"8
+[v ___flmul@b b `d  1 p 4 14 ]
+[v ___flmul@a a `d  1 p 4 18 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"150 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+[v _LCD_DrawBigDigit LCD_DrawBigDigit `(v  1 e 1 0 ]
+{
+[v LCD_DrawBigDigit@digit digit `uc  1 a 1 wreg ]
+[v LCD_DrawBigDigit@digit digit `uc  1 a 1 wreg ]
+[v LCD_DrawBigDigit@xpos xpos `uc  1 p 1 18 ]
+[v LCD_DrawBigDigit@ypos ypos `uc  1 p 1 19 ]
+[v LCD_DrawBigDigit@digit digit `uc  1 a 1 22 ]
+"160
+} 0
+"125 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+[v _LCD_putc LCD_putc `(v  1 e 1 0 ]
+{
+[v LCD_putc@c c `uc  1 a 1 wreg ]
+[v LCD_putc@c c `uc  1 a 1 wreg ]
+[v LCD_putc@c c `uc  1 a 1 16 ]
+"130
+} 0
+"119
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 a 1 17 ]
+"123
+} 0
+"112
+[v _LCD_Write LCD_Write `(v  1 e 1 0 ]
+{
+[v LCD_Write@data data `uc  1 a 1 wreg ]
+[v LCD_Write@data data `uc  1 a 1 wreg ]
+[v LCD_Write@data data `uc  1 a 1 13 ]
+"117
+} 0
+"102
+[v _LCD_Out LCD_Out `(v  1 e 1 0 ]
+{
+[v LCD_Out@c c `uc  1 a 1 wreg ]
+[v LCD_Out@c c `uc  1 a 1 wreg ]
+"104
+[v LCD_Out@c c `uc  1 a 1 9 ]
+"110
+} 0
+"69 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_ADC_Voltage_Meter.X\adc.c
+[v _ADC_GetSingleConversion ADC_GetSingleConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetSingleConversion@channel channel `uc  1 a 1 wreg ]
+[v ADC_GetSingleConversion@channel channel `uc  1 a 1 wreg ]
+[v ADC_GetSingleConversion@channel channel `uc  1 a 1 4 ]
+"88
+} 0
