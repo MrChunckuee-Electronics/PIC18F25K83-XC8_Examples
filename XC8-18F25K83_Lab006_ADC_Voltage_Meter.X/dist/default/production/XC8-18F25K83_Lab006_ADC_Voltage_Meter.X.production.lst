@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.36 build 20220127204148 
-                                                                                               Mon Nov 17 18:19:50 2025
+                                                                                               Sun Nov 23 00:04:08 2025
 
 Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1 
      1                           	processor	18F25K83
@@ -1596,12 +1596,12 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1582  00206A  0E00               	movlw	0
   1583  00206C  6FFE               	movwf	254,b	;volatile
   1584                           
-  1585                           ;adc.c: 62:     ADCLK = 0x00;
-  1586  00206E  0E00               	movlw	0
+  1585                           ;adc.c: 62:     ADCLK = 0x01;
+  1586  00206E  0E01               	movlw	1
   1587  002070  6FFF               	movwf	255,b	;volatile
   1588                           
-  1589                           ;adc.c: 64:     ADCON0 = 0x84;
-  1590  002072  0E84               	movlw	132
+  1589                           ;adc.c: 64:     ADCON0 = 0x94;
+  1590  002072  0E94               	movlw	148
   1591  002074  6FF8               	movwf	248,b	;volatile
   1592  002076                     
   1593                           ; BSR set to: 62
@@ -5807,7 +5807,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V2.36 build 20220127204148 
-Symbol Table                                                                                   Mon Nov 17 18:19:50 2025
+Symbol Table                                                                                   Sun Nov 23 00:04:08 2025
 
                           _LCD_Initialize 1E9E                              ?_LCD_Command 0001  
                                       l31 1C22                                        l42 1212  

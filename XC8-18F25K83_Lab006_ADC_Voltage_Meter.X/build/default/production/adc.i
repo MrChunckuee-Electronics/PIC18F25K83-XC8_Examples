@@ -37135,9 +37135,9 @@ void ADC_Initialize(void){
 
     ADACT = 0x00;
 
-    ADCLK = 0x00;
+    ADCLK = 0x01;
 
-    ADCON0 = 0x84;
+    ADCON0 = 0x94;
 
 
 }

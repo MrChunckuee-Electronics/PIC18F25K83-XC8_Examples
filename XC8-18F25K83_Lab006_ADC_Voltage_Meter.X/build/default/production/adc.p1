@@ -3193,11 +3193,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;adc.c: 60:     ADACT = 0x00;
 [e = _ADACT -> -> 0 `i `uc ]
 "62
-[; ;adc.c: 62:     ADCLK = 0x00;
-[e = _ADCLK -> -> 0 `i `uc ]
+[; ;adc.c: 62:     ADCLK = 0x01;
+[e = _ADCLK -> -> 1 `i `uc ]
 "64
-[; ;adc.c: 64:     ADCON0 = 0x84;
-[e = _ADCON0 -> -> 132 `i `uc ]
+[; ;adc.c: 64:     ADCON0 = 0x94;
+[e = _ADCON0 -> -> 148 `i `uc ]
 "67
 [; ;adc.c: 67: }
 [e :UE 3206 ]

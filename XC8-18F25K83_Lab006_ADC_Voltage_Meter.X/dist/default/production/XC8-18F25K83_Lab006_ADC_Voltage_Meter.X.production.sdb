@@ -3,19 +3,19 @@
 [d edition pro ]
 [d chip 18F25K83 ]
 [d frameptr 16353 ]
-"109 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+"109 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
 [e E22789 . `uc
 FONT_TRON_BOLD 0
 FONT_SQUARE_FOUR 1
 FONT_BLOCKS 2
 ]
-"59 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+"59 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
 [e E23535 . `uc
 FONT_TRON_BOLD 0
 FONT_SQUARE_FOUR 1
 FONT_BLOCKS 2
 ]
-"19 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+"19 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
 "69
 [v _ADC_GetSingleConversion ADC_GetSingleConversion `(us  1 e 2 0 ]
@@ -57,11 +57,11 @@ FONT_BLOCKS 2
 [v ___omul __omul `(uo  1 e 8 0 ]
 "10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
-"109 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+"109 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
 [v _LCD_SetFont LCD_SetFont `(v  1 e 1 0 ]
 "150
 [v _LCD_DrawBigDigit LCD_DrawBigDigit `(v  1 e 1 0 ]
-"56 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+"56 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
 [v _LCD_Init LCD_Init `(a  1 e 1 0 ]
 "102
 [v _LCD_Out LCD_Out `(v  1 e 1 0 ]
@@ -75,13 +75,13 @@ FONT_BLOCKS 2
 [v _LCD_puts LCD_puts `(v  1 e 1 0 ]
 "144
 [v _LCD_createChar LCD_createChar `(v  1 e 1 0 ]
-"49 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+"49 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
 [v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
 "62
 [v _main main `(v  1 e 1 0 ]
 "97
 [v _DISPLAY_ShowFloatValue DISPLAY_ShowFloatValue `(v  1 e 1 0 ]
-"19 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+"19 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "33
 [v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
@@ -206,7 +206,7 @@ FONT_BLOCKS 2
 [v _ADACT ADACT `VEuc  1 e 1 @16126 ]
 "53119
 [v _ADCLK ADCLK `VEuc  1 e 1 @16127 ]
-"54 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+"54 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
 [v _current_digits current_digits `*.39C[4]uc  1 e 2 0 ]
 "57
 [v _tron_bold_chars tron_bold_chars `C[8][8]uc  1 e 64 0 ]
@@ -221,9 +221,9 @@ FONT_BLOCKS 2
 "99
 [v _blocks_digits blocks_digits `[10][4]uc  1 e 40 0 ]
 [s S80 . 10 `*.39VEuc 1 TRIS 2 0 `*.39VEuc 1 PORT 2 2 `uc 1 RS 1 4 `uc 1 EN 1 5 `uc 1 D4 1 6 `uc 1 D5 1 7 `uc 1 D6 1 8 `uc 1 D7 1 9 ]
-"54 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+"54 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
 [v _LCDisplay LCDisplay `S80  1 e 10 0 ]
-"28 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+"28 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
 [v _sensor_ready sensor_ready `a  1 e 1 0 ]
 "29
 [v _sensor_avgCounter sensor_avgCounter `uc  1 e 1 0 ]
@@ -252,7 +252,7 @@ FONT_BLOCKS 2
 [v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
 "30
 } 0
-"19 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
+"19 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\mcu.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "23
@@ -267,17 +267,17 @@ FONT_BLOCKS 2
 {
 "51
 } 0
-"19 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+"19 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
 {
 "67
 } 0
-"49 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+"49 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
 [v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
 {
 "60
 } 0
-"132 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+"132 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
 [v _LCD_puts LCD_puts `(v  1 e 1 0 ]
 {
 "133
@@ -286,7 +286,7 @@ FONT_BLOCKS 2
 [v LCD_puts@a a `*.25uc  1 p 2 17 ]
 "136
 } 0
-"109 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+"109 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
 [v _LCD_SetFont LCD_SetFont `(v  1 e 1 0 ]
 {
 [v LCD_SetFont@FONT FONT `E22789  1 a 1 wreg ]
@@ -316,7 +316,7 @@ FONT_BLOCKS 2
 [v memcpy@n n `ui  1 p 2 4 ]
 "18
 } 0
-"144 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+"144 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
 [v _LCD_createChar LCD_createChar `(v  1 e 1 0 ]
 {
 [v LCD_createChar@location location `uc  1 a 1 wreg ]
@@ -339,7 +339,7 @@ FONT_BLOCKS 2
 [v LCD_Init@display display `S80  1 p 10 18 ]
 "100
 } 0
-"97 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
+"97 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\main.c
 [v _DISPLAY_ShowFloatValue DISPLAY_ShowFloatValue `(v  1 e 1 0 ]
 {
 "149
@@ -467,7 +467,7 @@ FONT_BLOCKS 2
 [v ___flge@ff2 ff2 `d  1 p 4 4 ]
 "19
 } 0
-"150 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
+"150 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LCD_BIGDigits.c
 [v _LCD_DrawBigDigit LCD_DrawBigDigit `(v  1 e 1 0 ]
 {
 [v LCD_DrawBigDigit@digit digit `uc  1 a 1 wreg ]
@@ -477,7 +477,7 @@ FONT_BLOCKS 2
 [v LCD_DrawBigDigit@digit digit `uc  1 a 1 22 ]
 "160
 } 0
-"125 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
+"125 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\LiquidCrystalDisplay.c
 [v _LCD_putc LCD_putc `(v  1 e 1 0 ]
 {
 [v LCD_putc@c c `uc  1 a 1 wreg ]
@@ -510,7 +510,7 @@ FONT_BLOCKS 2
 [v LCD_Out@c c `uc  1 a 1 9 ]
 "110
 } 0
-"69 C:\Users\mrchu\Documentos\MRCHUNCKUEE_Personal\MPLABX - XC8\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
+"69 C:\Users\mrchu\Documentos\GitHub\Microchip\PIC18F25K83-XC8_Examples\XC8-18F25K83_Lab006_ADC_Voltage_Meter.X\adc.c
 [v _ADC_GetSingleConversion ADC_GetSingleConversion `(us  1 e 2 0 ]
 {
 [v ADC_GetSingleConversion@channel channel `uc  1 a 1 wreg ]
